@@ -341,6 +341,79 @@ Are there obvious performance issues in the code?
 
 ---
 
+## AI Assistant Guidelines
+
+### Proactive Recommendations
+
+When presenting options that require developer review, ALWAYS provide your recommended choice with clear reasoning.
+
+**Example - Good:**
+```
+I've identified three approaches:
+A) Simple implementation (50 lines)
+B) Modular design (150 lines)
+C) Framework-based (300 lines)
+
+**My recommendation: Option A**
+Reasoning:
+- Meets current requirements
+- Easier to maintain
+- Can evolve to B if needed
+- Follows project's simplicity-first principle
+
+Do you agree with this approach?
+```
+
+**Example - Bad:**
+```
+There are three options: A, B, C. Which one do you prefer?
+```
+
+### Proactive Commit Reminders
+
+After completing work that modifies files, immediately remind the developer about committing changes.
+
+**When to remind:**
+- ✅ After creating new files
+- ✅ After modifying existing files
+- ✅ After completing a logical unit of work
+- ✅ When you recommend files should be committed
+
+**Example - Good:**
+```
+✅ Work completed: Added English development guide
+
+📋 Suggested commit:
+Files: DEVELOPMENT.md
+Reason: Core project documentation
+Command: git add DEVELOPMENT.md && git commit -m "docs: add English development guide"
+```
+
+**Example - Bad:**
+```
+✅ Work completed: Added English development guide
+
+[No commit reminder provided]
+```
+
+or
+
+```
+If you want to commit this, you can use git commands.
+```
+(Not specific enough - lacks clear recommendation)
+
+### Quick Checklist for AI Assistants
+
+Before responding to the developer, verify:
+
+- [ ] If presenting options: Did I recommend one with clear reasoning?
+- [ ] If work is complete: Did I remind about committing relevant files?
+- [ ] Are my commit suggestions specific (files + reason + command)?
+- [ ] Did I explain WHY, not just WHAT?
+
+---
+
 ## How to Use This Guide
 
 In Claude Code, you can:
