@@ -18,3 +18,18 @@ An MCP (Model Context Protocol) Server designed to prevent AI hallucinations by 
 ### For AI Assistants
 
 See [`.claude/system-prompt.example.md`](.claude/system-prompt.example.md) for Claude Code configuration.
+
+## Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes following our [Development Guide](DEVELOPMENT.md)
+4. Commit your changes using [Conventional Commits](https://www.conventionalcommits.org/)
+5. Push to your branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+See our [Contributing Guide](CONTRIBUTING.md) for detailed guidelines.
+
+**繁體中文** / [貢獻指南](docs/zh-TW/CONTRIBUTING.zh-TW.md)

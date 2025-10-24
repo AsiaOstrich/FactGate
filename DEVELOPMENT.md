@@ -139,6 +139,34 @@ git commit -m "test(auth): add JWT validation tests"
 - [ ] Code style is consistent
 - [ ] Commit message follows conventions
 
+### Branch Protection
+
+The `master` branch is protected with the following rules to ensure code quality and collaborative development:
+
+**Protection Rules:**
+- ✅ Requires pull request before merging
+- ✅ Requires at least 1 approval from reviewers
+- ✅ Status checks must pass (when configured)
+- ✅ All conversations must be resolved
+- ✅ Direct pushes are restricted to administrators (emergency only)
+
+**Why Branch Protection?**
+- Ensures code review before merging
+- Maintains master branch stability
+- Prevents accidental direct commits
+- Encourages collaborative development
+- Keeps deployment-ready code in master
+
+**Emergency Hotfixes:**
+For critical production issues, administrators may push directly to master. In such cases:
+1. Push the fix immediately
+2. Create a follow-up PR documenting the change
+3. Notify the team
+4. Document lessons learned
+
+**Configuration:**
+See [`.github/branch-protection.md`](.github/branch-protection.md) for detailed setup instructions.
+
 ---
 
 ## Git Commit Message Convention (Conventional Commits)
