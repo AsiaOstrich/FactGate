@@ -4,14 +4,20 @@
 
 ## 文檔
 
-### English
-- [Development Guide](../../DEVELOPMENT.md)
-- [Project Context](../../openspec/project.md)
+### 入門指南
+- **[快速開始指南](QUICKSTART.zh-TW.md)** - 快速上手
+- **[使用範例](EXAMPLES.zh-TW.md)** - 實用場景範例
+- **[API 參考](API.zh-TW.md)** - 完整 API 文檔
+- **[架構](ARCHITECTURE.zh-TW.md)** - 系統設計與架構
 
-### 繁體中文
-- [開發指南](DEVELOPMENT.zh-TW.md)
-- [專案上下文](openspec/project.zh-TW.md)
-- [可插拔事實來源適配器提案](openspec/changes/add-pluggable-source-adapters/proposal.zh-TW.md)
+### 開發文檔
+- [開發指南](DEVELOPMENT.zh-TW.md) - 貢獻指南
+- [貢獻指南](CONTRIBUTING.zh-TW.md) - 如何貢獻
+- [專案上下文](openspec/project.zh-TW.md) - 專案背景
+- [可插拔適配器提案](openspec/changes/add-pluggable-source-adapters/proposal.zh-TW.md) - 功能設計
+
+### English 文檔
+如需英文版本，請參閱[主 README](../../README.md#documentation)
 
 ### 給 AI 助手
 
