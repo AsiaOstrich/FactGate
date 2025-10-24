@@ -206,6 +206,38 @@ docs/
 4. **Submit a PR**
    - Use commit message: `docs: add [Language] translation for [File]`
 
+### Translation Synchronization
+
+#### For PR Authors
+
+When modifying English documentation:
+
+1. **Check for translations**: Look for corresponding files in `docs/zh-TW/`
+2. **Update translations**: If you can, update the Chinese version in the same PR
+3. **Create tracking issue**: If you can't update translations, create an issue:
+   - Title: `[Translation] Update zh-TW for [filename]`
+   - Labels: `translation`, `documentation`
+   - Link to the PR that modified the English version
+
+#### For Reviewers
+
+When reviewing documentation PRs, verify:
+
+- [ ] Check if corresponding translations exist in `docs/zh-TW/`
+- [ ] Verify translations are updated OR tracking issue is created
+- [ ] Ensure both versions maintain same technical accuracy
+
+#### Translation Status Tracking
+
+- We use GitHub Issues with the `translation` label to track outdated translations
+- Check [translation issues](https://github.com/AsiaOstrich/FactGate/labels/translation) for pending updates
+
+#### Acceptable Update Delays
+
+- **Minor fixes** (typos, formatting): Can delay translation up to 7 days
+- **Major updates** (new sections, significant changes): Should translate within same PR
+- **New features/documents**: Must include both English and Chinese versions
+
 ## Questions and Support
 
 ### Before Asking

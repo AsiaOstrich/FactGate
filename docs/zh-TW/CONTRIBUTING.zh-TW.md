@@ -206,6 +206,38 @@ docs/
 4. **提交 PR**
    - 使用提交訊息：`docs: 新增 [語言] 翻譯 [文件]`
 
+### 翻譯同步
+
+#### 對於 PR 作者
+
+當修改英文文檔時：
+
+1. **檢查翻譯**：查找 `docs/zh-TW/` 中的對應文件
+2. **更新翻譯**：如果可以，在同一個 PR 中更新中文版本
+3. **建立追蹤 Issue**：如果無法更新翻譯，請建立 Issue：
+   - 標題：`[Translation] Update zh-TW for [filename]`
+   - 標籤：`translation`、`documentation`
+   - 連結到修改英文版本的 PR
+
+#### 對於審核者
+
+審核文檔 PR 時，請確認：
+
+- [ ] 檢查 `docs/zh-TW/` 中是否存在對應翻譯
+- [ ] 確認翻譯已更新或已建立追蹤 Issue
+- [ ] 確保兩種語言版本維持相同的技術準確性
+
+#### 翻譯狀態追蹤
+
+- 我們使用帶有 `translation` 標籤的 GitHub Issues 來追蹤過期的翻譯
+- 查看 [translation issues](https://github.com/AsiaOstrich/FactGate/labels/translation) 以了解待處理的更新
+
+#### 可接受的更新延遲
+
+- **小修正**（錯字、格式）：可延遲翻譯最多 7 天
+- **重大更新**（新章節、重要變更）：應在同一個 PR 中翻譯
+- **新功能/文檔**：必須同時包含英文和中文版本
+
 ## 問題與支援
 
 ### 提問前
