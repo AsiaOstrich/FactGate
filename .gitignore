@@ -5,6 +5,7 @@ yarn.lock
 
 # Personal Claude Code configuration
 .claude/system-prompt.md
+.claude/settings.local.json
 .claude/cache/
 .claude/logs/
 
